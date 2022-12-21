@@ -31,32 +31,32 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema3/img3.svg', alt='Texto que describa la imagen')(data-aos="fade-right")
-          .tarjeta.color-cuarto1.p-3(x="15.5%" y="15.6%" numero="+")
+          .tarjeta.color-cuarto1.p-3(x="12%" y="15.3%" numero="+")
             p.text-white <b>PRIMERA VISITA (CM)</b> 
             p.text-white.mb-0 La primera visita domiciliaria siempre debe estar guiada por la cartilla «Zarpando a la aventura», que contiene las orientaciones para la presentación del programa a la familia y la realización de la caracterización y el diagnóstico.
-          .tarjeta.color-cuarto1.p-3(x="38.6%" y="15.5%" numero="+")
+          .tarjeta.color-cuarto1.p-3(x="35%" y="15.3%" numero="+")
             p.text-white <b>CINCO VISITAS</b> 
             p.text-white.mb-3 Luego de la visita inicial se recomienda dar continuidad al ciclo básico, el cual cuenta, aparte de la visita inicial y de cierre, con cinco sesiones para las familias del modelo preventivo, seis sesiones para las familias del modelo intensivo y siete sesiones para las familias con algún integrante en situación de discapacidad. 
-          .tarjeta.color-cuarto1.p-3(x="62%" y="15.5%" numero="+")
+          .tarjeta.color-cuarto1.p-3(x="58.7%" y="15.3%" numero="+")
             p.text-white <b>ÚLTIMA VISITA</b> 
             p.text-white.mb-0 La última visita domiciliaria siempre estará guiada por la cartilla «Con cada despedida llegan nuevos comienzos», que representa el cierre del acompañamiento psicosocial y la proyección de la familia para continuar avanzando de manera autónoma en sus metas y propósitos.
-          .tarjeta.color-cuarto1.p-3(x="11.2%" y="56.8%" numero="+")
+          .tarjeta.color-cuarto1.p-3(x="8.2%" y="56.8%" numero="+")
             p.text-white <b>CRITERIO DE DISCAPACIDAD</b> 
             p.text-white.mb-0 En el caso de las familias que ingresan al programa por el criterio de discapacidad, el encuadre inicial, el ciclo básico y la visita de cierre ocupan las nueve visitas que se contemplan en su modelo de atención; por tanto, las posibilidades de profundización para estas familias se desarrollan a través de los encuentros.
-          .tarjeta.color-cuarto1.p-3(x="27.5%" y="57%" numero="+")
+          .tarjeta.color-cuarto1.p-3(x="24%" y="57%" numero="+")
             p.text-white <b>MODELO PREVENTIVO</b> 
             p.text-white.mb-0 Las familias que ingresan al modelo preventivo y no tienen integrantes con discapacidad tienen la posibilidad de incorporar dos temáticas de profundización en las visitas domiciliarias, aparte de las que puedan trabajar a través de los encuentros.
-          .tarjeta.color-cuarto1.p-3(x="47.8%" y="57%" numero="+")
+          .tarjeta.color-cuarto1.p-3(x="44.5%" y="57%" numero="+")
             p.text-white <b>MODELO INTENSIVO</b> 
             p.text-white.mb-0 En el caso de las familias del modelo intensivo, si tienen personas en situación de discapacidad se deberá incluir dentro del ciclo básico, además de la sesión de regulación emocional 2 ‘Expresar sin herir’, las dos sesiones del ciclo básico del enfoque diferencial en discapacidad; por tanto, estas familias tendrán la posibilidad de incorporar tres temáticas de profundización en las visitas domiciliarias y si no tienen personas en situación de discapacidad, podrán desarrollar hasta cinco sesiones de este tipo. 
-          .tarjeta.color-cuarto1.p-3(x="63.3%" y="57%" numero="+")
+          .tarjeta.color-cuarto1.p-3(x="60.3%" y="57%" numero="+")
             p.text-white <b>REINTEGRO FAMILIAR</b> 
             p.text-white.mb-3 En estos casos, el PAF debe incluir en el plan familiar, por lo menos el ciclo básico del modelo intensivo y las cuatro sesiones de reintegro familiar. De igual manera, se flexibiliza el criterio de desarrollar primero el ciclo básico; el PAF puede combinar sesiones del ciclo básico con las sesiones de reintegro, en especial cuando observe que se complementan o refuerzan las actividades o reflexiones propuestas, por ejemplo, la primera sesión de reintegro familiar ‘Los primeros pasos hacia la reunificación familiar’ se complementa muy bien con las sesiones de regulación emocional. En todo caso, las cartillas de reintegro tienen un orden propuesto que se sugiere respetar, es decir, se pueden intercalar con sesiones del ciclo básico, pero sin alterar su orden.
             p.text-white.mb-0 Además de lo expuesto, para estas familias se debe hacer el énfasis en su proceso de reintegro, tanto en la sesión de encuadre ‘Zarpando a la aventura’ (si es del conocimiento del PAF en ese momento) como en la de cierre ‘Con cada despedida llegan nuevos comienzos’. 
-          .tarjeta.color-cuarto1.p-3(x="27.3%" y="77%" numero="+")
+          .tarjeta.color-cuarto1.p-3(x="24%" y="77%" numero="+")
             p.text-white <b>URBANO</b> 
             p.text-white.mb-3 En el caso de Mi familia urbana, estas corresponden a ‘Encuentros familiares’, los cuales pueden ser inclusivos, es decir, donde participan las familias sin y con personas en situación de discapacidad o especializados donde solo participan estas últimas. Los encuentros alrededor de una temática permiten a las familias con intereses en común compartir sus vivencias y estrategias de afrontamiento en torno a una situación particular. 
-          .tarjeta.color-cuarto1.p-3(x="47.8%" y="77%" numero="+")
+          .tarjeta.color-cuarto1.p-3(x="44.5%" y="77%" numero="+")
             p.text-white <b>RURAL</b> 
             p.text-white.mb-3 En el caso de Mi familia rural las intervenciones grupales se denominan ‘Encuentros comunitarios’ y en ellos, además de abordar las temáticas psicosociales, se trabaja en el diseño e implementación de una iniciativa comunitaria. El trabajo alrededor de la iniciativa comunitaria se desarrolla a lo largo de los seis encuentros inclusivos y está guiado por la cartilla ‘Iniciativas comunitarias: guía para el desarrollo comunitario’, mientras que, para el desarrollo de las temáticas psicosociales en los encuentros se utilizan las cartillas correspondientes a los encuentros inclusivos. 
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")

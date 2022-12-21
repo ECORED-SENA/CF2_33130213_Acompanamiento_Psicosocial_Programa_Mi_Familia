@@ -19,7 +19,7 @@
             h5 Figura 1
             span Ciclo de atención del programa
           figure
-            img(src='@/assets/curso/tema2/img2.svg').mb-3
+            img(src='@/assets/curso/tema2/img2.png').mb-3
             figcaption Nota. Tomado de ICBF (2021).
     .bg9.p-2.mb-5
       .row.align-items-center.p-3
@@ -355,6 +355,11 @@
       .col-lg-8.col-xl-8
         figure
           img(src='@/assets/curso/tema2/img28.svg').mb-3
+    p.mb-5 A continuación se explica la conformación familiar: 
+    figure(data-aos="zoom-in").mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ew81C_EJ1Hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
     Separador
     #t_2_4 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")

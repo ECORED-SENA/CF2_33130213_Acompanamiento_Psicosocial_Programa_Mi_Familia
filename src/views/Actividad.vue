@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Genograma
-        p.mb-4 #[b Objetivo] Caracterizar correctamente a través de la construcción de un genograma como herramienta orientadora para el diseño de un plan familiar propio de cada caso específico.
+        p.mb-4 Caracterizar correctamente a través de la construcción de un genograma como herramienta orientadora para el diseño de un plan familiar propio de cada caso específico.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
