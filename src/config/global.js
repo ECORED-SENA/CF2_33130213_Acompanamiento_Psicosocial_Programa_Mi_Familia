@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'El éxito de un acompañamiento familiar se da principalmente por el notable ejercicio del profesional de acompañamiento familiar (PAF), quien comprende los aspectos de atención y reflexión, la correcta caracterización que realice a través de los instrumentos dispuestos para ello y el buen uso y adaptación de las cartillas metodológicas según el escenario a trabajar.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],

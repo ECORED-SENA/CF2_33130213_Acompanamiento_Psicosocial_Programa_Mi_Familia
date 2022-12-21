@@ -25,7 +25,7 @@
       .row.align-items-center.p-3
         .col-lg-auto
           figure
-            img(src='@/assets/curso/tema2/img3.svg', style="width: 80px").m-auto
+            img.mb-3(src='@/assets/curso/tema2/img3.svg', style="width: 80px").m-auto
         .col-lg.mb-4.mb-lg-0
           p.mb-0 Para el desarrollo del diagnóstico de las familias los profesionales de acompañamiento familiar cuentan con una batería de instrumentos que les permite abordar diferentes perspectivas de las familias, tal como se aprecia a continuación:
     .row.mb-5.justify-content-center
@@ -63,7 +63,7 @@
         .tarjeta--azul1.p-4.p-md-5
           SlyderA(tipo="b").color_slyder-a_botones
             .row.justify-content-center.align-items-center        
-              .col-lg-10.mb-4.mb-md-0
+              .col-lg-9.mb-4.mb-md-0
                 h4.mb-4 Entidad del contratista
                 ul.lista-ul
                   li 
@@ -87,10 +87,10 @@
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
                     p.mb-0 Número de documento de identificación del profesional
-              .col-lg-2.d-flex.align-items-start 
+              .col-lg-3.d-flex.align-items-start 
                 img.img-t(src='@/assets/curso/tema2/img7.svg', alt='')   
             .row.justify-content-center.align-items-center              
-              .col-lg-10.mb-4.mb-md-0
+              .col-lg-9.mb-4.mb-md-0
                 h4.mb-4 Ubicación de la vivienda familiar
                 ul.lista-ul
                   li 
@@ -108,10 +108,10 @@
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
                     p.mb-0 Acceso a servicios públicos
-              .col-lg-2
+              .col-lg-3
                 img.img-t(src='@/assets/curso/tema2/img8.svg', alt='')
             .row.justify-content-center.align-items-center             
-              .col-lg-10.mb-4.mb-md-0
+              .col-lg-9.mb-4.mb-md-0
                 h4.mb-4 Nivel individual: jefe del grupo familiar
                 ul.lista-ul
                   li 
@@ -132,10 +132,10 @@
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
                     p.mb-0 Discapacidad
-              .col-lg-2
+              .col-lg-3.pe-2
                 img.img-t(src='@/assets/curso/tema2/img9.svg', alt='')
             .row.justify-content-center.align-items-center             
-              .col-lg-10.mb-4.mb-md-0
+              .col-lg-9.mb-4.mb-md-0
                 h4.mb-4 Nivel individual: integrantes del grupo
                 ul.lista-ul
                   li 
@@ -156,12 +156,12 @@
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
                     p.mb-0 Discapacidad
-              .col-lg-2
+              .col-lg-3
                 img.img-t(src='@/assets/curso/tema2/img10.svg', alt='')  
       .col-lg-6
         img.img-t(src='@/assets/curso/tema2/img11.svg', alt='')
     .row
-      .col-12.p-5
+      .col-12.p-5.tambloqimg.tambloqtxt        
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img12.png')})`}"
@@ -193,7 +193,7 @@
       .row.align-items-center.p-3
         .col-lg-auto
           figure
-            img(src='@/assets/curso/tema2/img15.svg', style="width: 80px").m-auto
+            img.mb-3(src='@/assets/curso/tema2/img15.svg', style="width: 80px").m-auto
         .col-lg.mb-4.mb-lg-0
           p.mb-0 Para este apartado se identifican campos con opciones de respuesta como se presenta en la ficha. La persona que responde este apartado será el jefe del grupo familiar, su cónyuge o cualquier otro integrante de 18 años o más. Es importante tener en cuenta que en una vivienda puede haber más de un grupo familiar y que se debe atender y diligenciar esta información para el grupo familiar al que pertenezca el niño, la niña o el adolescente que generó los criterios de selección. Para el caso de Mi familia si está o estuvo en una modalidad priorizada de protección o de primera infancia, entre otros, de acuerdo con la Guía de focalización de la modalidad.
     p.mb-5 La mayor parte de los campos relacionados con la ubicación de la vivienda pueden ser diligenciados previamente de acuerdo con las indicaciones suministradas por la gerencia de operaciones, a partir del análisis de la base de vinculación y de los municipios o ciudades a atender. A continuación se presenta la orientación para el diligenciamiento del campo específico “Zona de ubicación”: 
@@ -229,10 +229,10 @@
                     span Ir a página
                     i.fas.fa-link 
     .row.justify-content-center
-      .col-8.col-lg-8.p-5
+      .col-12.col-lg-8.p-5
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema2/img12.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/img53.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Finalmente, la información de caracterización le permite a la Dirección de familias y comunidades hacer los análisis agregados de las familias de acuerdo con sus características socioeconómicas y de esta manera, identificar fortalezas u oportunidades de mejora para la modalidad.
@@ -240,20 +240,17 @@
     #t_2_3
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3 Genograma
-    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
+    .row.mb-5.justify-content-center(data-aos="fade-right")
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-left")
-        p Para el abordaje con este instrumento es fundamental tener a disposición un mapa completo de los integrantes de la familia y sus allegados significativos, así como de las cualidades de sus relaciones y aspectos estructurales como el parentesco, los roles que desempeñan, los acuerdos y las prácticas del sistema familiar y la forma como afrontan situaciones estresantes. 
-        .row.justify-content-center.align-items-center.mb-5
-          .col-12.col-md-6.col-lg-12.medidas_bloque-textb_t2.medidas_fa-quote-textb_t4  
-            .tarjeta-color.pe-4.ps-3.py-4.mb-2.mb-md-4(data-aos="fade-right")
-              .bloque-texto-b.color-acento-botones.px-4(data-aos="fade-right")
-                .bloque-texto-b__texto.m-4
-                  i.fas.fa-quote-left
-                  p.m-5 El genograma se usa como instrumento gráfico que permite conocer, recoger, registrar y exponer algunos datos de la familia, información de sus integrantes y las relaciones a lo largo de diferentes generaciones
-                  br
-                  br
-                  p.margin-texto_2.flex-end <b>(Fernández, Escalante & Palmero, 2011).</b>  
-                  i.fas.fa-quote-right
+        p.mb-5 Para el abordaje con este instrumento es fundamental tener a disposición un mapa completo de los integrantes de la familia y sus allegados significativos, así como de las cualidades de sus relaciones y aspectos estructurales como el parentesco, los roles que desempeñan, los acuerdos y las prácticas del sistema familiar y la forma como afrontan situaciones estresantes. 
+        
+        .bloque-texto-f.color-secundario.pt-4.px-5.mb-5
+          .bloque-texto-f__comillas
+            i.fas.fa-quote-left
+            i.fas.fa-quote-right
+          h4.text-regular.bloque-texto-f__texto El genograma se usa como instrumento gráfico que permite conocer, recoger, registrar y exponer algunos datos de la familia, información de sus integrantes y las relaciones a lo largo de diferentes generaciones 
+          .bloque-texto-f__autor.mb-3.d-flex.align-self-end
+            p.text-bold Fernández, Escalante & Palmero, 2011).   
       .col-lg-5
         figure
           img.img-t(src='@/assets/curso/tema2/img18.png').m-auto
@@ -278,30 +275,8 @@
               .col-lg-4
                 .imagen-absolute2
                   img.img-t.mx-auto(data-aos="zoom-in")(src='@/assets/curso/tema2/img20.svg', alt='')
-    .row.justify-content-center
-      .col-sm-6.col-xl-4.mb-4
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img22.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5.flex-center-text
-              .row.justify-content-center
-                .col-lg-12.mb-4
-                  .bg6.p-2
-                    h4.text-center.m-0 Trazado de la estructura familiar
-                p Es la descripción gráfica de los integrantes de la familia y de las uniones biológicas y legales entre las generaciones. Pueden usarse cuadrados, círculos o triángulos, dependiendo del género de la persona, y las líneas simbolizan las relaciones. 
-      .col-sm-6.col-xl-4.mb-4
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img23.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5.flex-center-text
-              .row.justify-content-center
-                .col-lg-12.mb-4
-                  .bg6.p-2
-                    h4.text-center.m-0 Registro de información familiar
-                p Inclusión de otros datos de la familia como fechas de nacimiento, fallecimiento, matrimonio, separación, divorcio, entre otros, además incorpora datos sobre cambios de relaciones, migraciones u otros que den cuenta de sucesos familiares significativos. 
-      .col-sm-6.col-xl-4.mb-4
+    .row.justify-content-center.g-2.mb-5
+      .col-lg-4.col-md-8.mb-4
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -310,29 +285,47 @@
               .row.justify-content-center
                 .col-lg-12.mb-4
                   .bg6.p-2
+                    h4.text-center.m-0 Trazado de la estructura familiar
+                p Es la descripción gráfica de los integrantes de la familia y de las uniones biológicas y legales entre las generaciones. Pueden usarse cuadrados, círculos o triángulos, dependiendo del género de la persona, y las líneas simbolizan las relaciones. 
+      .col-lg-4.col-md-8.mb-4
+        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img22.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.flex-center-text
+              .row.justify-content-center
+                .col-lg-12.mb-4
+                  .bg6.p-2
+                    h4.text-center.m-0 Registro de información familiar
+                p Inclusión de otros datos de la familia como fechas de nacimiento, fallecimiento, matrimonio, separación, divorcio, entre otros, además incorpora datos sobre cambios de relaciones, migraciones u otros que den cuenta de sucesos familiares significativos. 
+      .col-lg-4.col-md-8.mb-4
+        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img23.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.flex-center-text
+              .row.justify-content-center
+                .col-lg-12.mb-4
+                  .bg6.p-2
                     h4.text-center.m-0 Registro de las relaciones familiares
                 p Parte de la información suministrada por la familia, así como de la observación del profesional. Es representado a partir de diferentes tipos de líneas para evidenciar el carácter de las relaciones entre los miembros de la familia.
-    Separador
-    #t_2_3
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.3 Genograma
-    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
+    
+    .row.mb-4.justify-content-center(data-aos="fade-right")
       .col-lg-4
         figure
-          img.img-t(src='@/assets/curso/tema2/img18.png').m-auto
+          img.img-t.mb-3(src='@/assets/curso/tema2/img54.svg').m-auto
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-left")
-        p.mb-0 Esta herramienta brinda una vista sencilla de la familia sobre contenidos con carga emocional como nacimientos, muertes o conflictos que pueden ser identificados por el profesional en una conversación. Es de gran ayuda en el trabajo con familias, pues se puede volver a eventos pasados que marcaron la trayectoria tanto familiar como de cada integrante, así como conversar sobre aspectos familiares que permiten una mejor comprensión de sus procesos. Al profesional también le da un mejor entendimiento de la familia y de las posibilidades del acompañamiento.
-        .row.justify-content-center.align-items-center
-          .col-12.col-md-6.col-lg-12.medidas_bloque-textb_t2.medidas_fa-quote-textb_t4  
-            .tarjeta-color.pe-4.ps-3.py-4.mb-2.mb-md-4(data-aos="fade-right")
-              .bloque-texto-b.color-acento-botones.px-4(data-aos="fade-right")
-                .bloque-texto-b__texto.m-4
-                  i.fas.fa-quote-left
-                  p.m-5 La lectura de esta herramienta tiene distintos niveles de interpretación. Una se focaliza en la composición familiar, mientras otras pueden centrarse en la repetición de pautas a través de las generaciones de la familia, así como en la manera como los sucesos de la vida están interconectados con los cambios en el funcionamiento familiar, también puede hacerse una mirada que evidencie las transiciones y pérdidas, su significado, y con relación a las formas de afrontamiento en la familia.
-                  br
-                  br
-                  p.margin-texto_2.flex-end <b>(Cibanal, 2002).</b>  
-                  i.fas.fa-quote-right
+        p.mb-5 Esta herramienta brinda una vista sencilla de la familia sobre contenidos con carga emocional como nacimientos, muertes o conflictos que pueden ser identificados por el profesional en una conversación. Es de gran ayuda en el trabajo con familias, pues se puede volver a eventos pasados que marcaron la trayectoria tanto familiar como de cada integrante, así como conversar sobre aspectos familiares que permiten una mejor comprensión de sus procesos. Al profesional también le da un mejor entendimiento de la familia y de las posibilidades del acompañamiento.
+        .row.justify-content-center
+          .col-lg-11.tambl1
+            .bloque-texto-f.color-secundario.pt-4.px-5.mb-5
+              .bloque-texto-f__comillas
+                i.fas.fa-quote-left
+                i.fas.fa-quote-right
+              h4.text-regular.bloque-texto-f__texto La lectura de esta herramienta tiene distintos niveles de interpretación. Una se focaliza en la composición familiar, mientras otras pueden centrarse en la repetición de pautas a través de las generaciones de la familia, así como en la manera como los sucesos de la vida están interconectados con los cambios en el funcionamiento familiar, también puede hacerse una mirada que evidencie las transiciones y pérdidas, su significado, y con relación a las formas de afrontamiento en la familia.
+              .bloque-texto-f__autor.mb-3.d-flex.align-self-end
+                p.text-bold (Cibanal, 2002).
+        
       p.mb-5 Las principales convenciones para la realización y comprensión del genograma en cuanto a las personas que conforman la familia son:
       .row.justify-content-center
         .col-lg-8.col-xl-8
@@ -346,7 +339,7 @@
       .row.align-items-center.p-3
         .col-lg-auto
           figure
-            img(src='@/assets/curso/tema2/img26.svg', style="width: 80px").m-auto
+            img.mb-3(src='@/assets/curso/tema2/img26.svg', style="width: 80px").m-auto
         .col-lg.mb-4.mb-lg-0
           p.mb-0 Por su parte, la siguiente figura presenta las convenciones correspondientes a los tipos de relaciones y vínculos que hay entre las personas de las familias como se muestra a continuación: 
     .row.justify-content-center.mb-5
@@ -395,7 +388,7 @@
       .row.align-items-center.p-3
         .col-lg-auto
           figure
-            img(src='@/assets/curso/tema2/img32.svg', style="width: 80px").m-auto
+            img.mb-3(src='@/assets/curso/tema2/img32.svg', style="width: 80px").m-auto
         .col-lg.mb-4.mb-lg-0
           p.mb-0 Debido a que es la extensión o complemento del genograma, también muestra las relaciones de la familia, lo que permite al profesional de acompañamiento trazar una ruta de acción más cercana a las realidades de la familia, de acuerdo con su propio desarrollo y la relación o construcción con su territorio. En este sentido, el concepto de territorio no solo obedece a la idea de un área física delimitada, habitada y usada, sino que es producto de las relaciones sociales entre lo que se considera personas en cada una de las sociedades, y entre estas y su entorno (Ardila, 2006).
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
@@ -416,7 +409,7 @@
       .col-12.p-5
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema2/img12.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/img35.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Es importante que estos dos profesionales estén en constante comunicación y tengan claridad que no todas las familias deben estar en las mismas redes, ya que su aporte o no, depende de las dinámicas familiares y comunitarias. Ahora bien, para valorar, identificar acciones de intervención y realizar seguimiento es necesario que tanto el profesional de acompañamiento como el gestor de oferta registren la información en los formatos y sistemas de información que disponga el ICBF para tal fin. <br><br> Por lo anterior, en el aplicativo Mi familia se definieron las siguientes variables que se deben recoger en conversación con la familia y, como resultado de la elaboración del ecomapa lo siguiente:
@@ -462,7 +455,7 @@
       .row.align-items-center.p-3
         .col-lg-auto
           figure
-            img(src='@/assets/curso/tema2/img41.svg', style="width: 80px").m-auto
+            img.mb-3(src='@/assets/curso/tema2/img41.svg', style="width: 80px").m-auto
         .col-lg.mb-4.mb-lg-0
           p.mb-0 Ahora, se presenta para cada instrumento la definición de la habilidad o aspecto que pretende medir, por qué es importante para el fortalecimiento familiar, a quiénes se aplica y una descripción general del mismo:
     .row.justify-content-center.align-items-center.mb-5     
@@ -549,7 +542,7 @@
       .row.align-items-center.p-3
         .col-lg-auto
           figure
-            img(src='@/assets/curso/tema2/img52.svg', style="width: 80px").m-auto
+            img.mb-3(src='@/assets/curso/tema2/img52.svg', style="width: 80px").m-auto
         .col-lg.mb-4.mb-lg-0
           p.mb-0 La siguiente tabla incluye un resumen de los cuatro instrumentos de habilidades del programa Mi familia, sus subescalas, la población a la que van dirigidos, la cantidad de preguntas o ítems y las opciones de respuesta. 
     .row.justify-content-center

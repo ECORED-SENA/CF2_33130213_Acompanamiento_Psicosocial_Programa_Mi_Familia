@@ -7,7 +7,7 @@
         span 3
       h1 Cartillas metodológicas para el acompañamiento familiar
     .row
-      .col-12.p-5
+      .col-12.p-5.tambloqimg.tambloqtxt
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img1.png')})`}"
@@ -91,7 +91,7 @@
       .col-lg-6.mb-4
         .tarjeta-avatar-b.mb-0.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img5.svg' alt='AvatarTop')
+            img.imgtop(src='@/assets/curso/tema3/img5.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.shadow 
             .p-4
               h3 MOMENTO 1
@@ -99,7 +99,7 @@
       .col-lg-6.mb-4
         .tarjeta-avatar-b.mb-0.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img6.svg' alt='AvatarTop')
+            img.imgtop(src='@/assets/curso/tema3/img6.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.shadow 
             .p-4
               h3 MOMENTO 2
@@ -107,7 +107,7 @@
       .col-lg-6.mb-4
         .tarjeta-avatar-b.mb-0.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img7.svg' alt='AvatarTop')
+            img.imgtop(src='@/assets/curso/tema3/img7.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.shadow 
             .p-4
               h3 MOMENTO 3
@@ -115,7 +115,7 @@
       .col-lg-6.mb-4
         .tarjeta-avatar-b.mb-0.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img8.svg' alt='AvatarTop')
+            img.imgtop(src='@/assets/curso/tema3/img8.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.shadow 
             .p-4
               h3 MOMENTO 4
@@ -132,18 +132,18 @@
         p Cada cartilla metodológica propone por sesión una pregunta orientadora, unos objetivos y unos resultados esperados. Estos elementos se deben conservar y proteger en el desarrollo metodológico de la sesión, sea que se haga siguiendo tal cual los pasos que propone la cartilla o que se realicen modificaciones. El programa Mi familia tiene cobertura en la mayoría de los departamentos del país y en un número importante de municipios; por tanto, las familias que participan en el programa son muy diversas en cuanto a su cultura, su historia, su pertenencia étnica, su territorio, entre otras características. Por tales motivos, un primer nivel que se identifica para posibles ajustes tiene que ver con la pertinencia cultural y territorial del lenguaje y las actividades que proponen las cartillas.
         p En este sentido, las Unidades de asistencia técnica cumplen un rol muy importante para proponer y liderar espacios colectivos de análisis e identificación de ajustes de las cartillas, teniendo como foco su pertinencia cultural y territorial; véalo:
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0
         p El PAF puede proponer ajustes para el desarrollo de las cartillas con cada familia en particular, sin perder de vista los elementos centrales (pregunta orientadora, objetivos y resultados esperados), en respuesta a las particularidades de cada familia, por ejemplo, si identifica que prefieren conversar en vez de realizar actividades que exijan movimiento, si prefieren plasmar sus ideas y reflexiones en dibujos u otros productos creativos como canciones en lugar de escribir, etc. 
         p En este mismo sentido, en el desarrollo de cada sesión es importante hacer énfasis en los asuntos que son de interés para cada familia, por ejemplo, si como resultado de su interacción con la familia se da cuenta que los cuidadores están muy al tanto de las necesidades de cuidado de los demás, pero no de las propias, dedicará más tiempo para la conversación y reflexión, luego de las actividades que enfatizan en el cuidado propio como condición necesaria para poder cuidar de los demás. 
-      .col-lg-8(data-aos="fade-left")
+      .col-lg-7(data-aos="fade-left")
         figure
           img.img-t(src='@/assets/curso/tema3/img10.svg').m-auto
     p.mb-5 Existe un nivel de mayor complejidad en la flexibilización de las metodologías propuestas en las cartillas, que resultan cuando las visitas o los encuentros no se pueden realizar de manera presencial, como ha sido el caso durante la pandemia por COVID-19. En todo caso y como ya se ha mencionado, la flexibilización metodológica debe procurar la resolución de la pregunta orientadora y el alcance de los objetivos y los resultados esperados. 
     .row.justify-content-center
-      .col-8.p-5
+      .col-12.p-5
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema3/img1.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema3/img12.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Cuando las condiciones no permitan el desarrollo de las visitas domiciliarias el acompañamiento a las familias se realizará por medio de contactos telefónicos, por videollamadas o por plataformas de encuentros virtuales como WhatsApp, Teams, Zoom, Google Meet, entre otras.
@@ -151,7 +151,7 @@
       .row.align-items-center.p-3
         .col-lg-auto
           figure
-            img(src='@/assets/curso/tema3/img11.svg', style="width: 80px").m-auto
+            img.mb-3(src='@/assets/curso/tema3/img11.svg', style="width: 80px").m-auto
         .col-lg.mb-4.mb-lg-0
           p.mb-0 Para el desarrollo no presencial de este tipo de intervención se contemplan escenarios que combinen contactos no presenciales realizados por el profesional de acompañamiento familiar - PAF a las familias beneficiarias y espacios lúdicos de reflexión en familia, los cuales son realizados de manera autónoma por la familia entre contacto y contacto, a partir de las orientaciones entregadas por el PAF, con el propósito de avanzar en la apropiación de los conceptos y en la identificación de las prácticas familiares relacionadas con el tema, así como posibles escenarios de transformación. Para esto, la Dirección de familias y comunidades del ICBF pone a disposición de los operadores y sus equipos protocolos para el desarrollo no presencial de las visitas domiciliarias, que guardan coherencia con las cartillas correspondientes. 
 

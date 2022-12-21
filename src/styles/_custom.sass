@@ -31,6 +31,11 @@
 .boton *, .boton--sm * 
   color: white
 
+.boton *, .boton--sm *, .boton--sm * 
+  color: white
+.boton:active *, .boton--sm:active *, .boton:focus *, .boton--sm:focus *, .boton:hover *, .boton--sm:hover * 
+  color: white !important
+
 
 
 @keyframes float1
@@ -302,6 +307,34 @@
 .bloque-texto-b.color-acento-botones:before
   background-color: #FFF6DD
 
+.bloque-texto-d.color-acento-contenido:before 
+    background-color: #FFF6DD
+
+
+.bloque-texto-d:before 
+  top: 36%
+  left: 36%
+
+.bloque-texto-f.color-secundario:before 
+    background-color: #FFF6DD
+
+.bloque-texto-f:before 
+  top: 40px
+  left: 355px
+  right: 13px
+  bottom: 50px
+  @media (max-width: $bp-max-xs)
+    top: 108px
+    left: 127px
+
+.tambl1
+  .bloque-texto-f:before 
+      top: 30%
+      left: 41%
+      right: 1%
+      bottom: 50px  
+    
+
 .medidas_bloque-textb_t4
   .bloque-texto-b:before 
     content: ''
@@ -324,16 +357,17 @@
     
 .fa-quote-right:before 
   position: absolute
-  font-size: 28px
-  bottom: 33px
-  right: 90px
+  font-size: 29px
+  bottom: 12px
+  right: 4px
   @media screen and (max-width: 420px) 
     right: 40px
-  
+
 .fa-quote-left:before 
-  font-size: 28px
-  margin-right: -47px
-  margin-left: -51px
+  font-size: 29px
+  margin-right: -48px
+  margin-left: -26px
+  
 
 .margin-texto_2
   margin-left: 1px
@@ -357,7 +391,17 @@
       bottom: 30px
       right: 25px
 
+.tambloqimg
+  .bloque-texto-g__img 
+    width: 30%
+    @media (max-width: $bp-max-md)
+      width: 100%
 
+.tambloqtxt    
+  .bloque-texto-g__texto 
+    width: 76%
+    @media (max-width: $bp-max-md)
+      width: 100%
 .tarjeta--azul
    background-color: #F6F6F6
    border-radius: 10px !important
@@ -428,3 +472,6 @@
   @media (max-width: $bp-max-lg)
     position: inherit
     transform: none  
+
+.imgtop
+  margin-top: -53px

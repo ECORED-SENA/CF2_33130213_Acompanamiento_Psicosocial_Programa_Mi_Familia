@@ -63,7 +63,7 @@
       .row.align-items-center.p-3
         .col-lg-auto
           figure
-            img(src='@/assets/curso/tema1/img7.svg', style="width: 80px").m-auto
+            img.mb-3(src='@/assets/curso/tema1/img7.svg', style="width: 80px").m-auto
         .col-lg.mb-4.mb-lg-0
           p.mb-0 La comprensión tiene un potencial transformador al involucrar a la familia en la lectura de su realidad y su contexto, ejercicio que permite la reflexión sobre sus propias dinámicas y formas de relacionamiento, así como la identificación de cambios posibles.
     Separador
@@ -84,17 +84,17 @@
         .col-lg-1.mb-4.mb-lg-0
           figure
             img.img-t(src='@/assets/curso/tema1/img9.svg').mx-auto
-    p.mb-3.bg4.p-2.text-white <b> EL PAF</b>
+    p.mb-4.bg4.p-2.text-white <b> EL PAF</b>
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-8(data-aos="fade-left")
-        p Debe generar una reflexión permanente sobre las dinámicas de interacción con las familias, teniendo cuidado de no perder de vista los siguientes aspectos: autoreferenciación (sus conocimientos, representaciones y perspectivas sobre la vida familiar), el enfoque apreciativo sobre las familias y la promoción de la resiliencia. 
-        p.bg5.p-2 <b> Autoreferenciación del PAF</b>
+        p.mb-4 Debe generar una reflexión permanente sobre las dinámicas de interacción con las familias, teniendo cuidado de no perder de vista los siguientes aspectos: autoreferenciación (sus conocimientos, representaciones y perspectivas sobre la vida familiar), el enfoque apreciativo sobre las familias y la promoción de la resiliencia. 
+        p.bg5.p-2.mb-4 <b> Autoreferenciación del PAF</b>
         P En la implementación del programa Mi familia el PAF interactúa con las familias no solo haciendo uso de técnicas y herramientas, sino desde sus conocimientos, representaciones, emociones y perspectivas, que provienen de sus experiencias previas y de los procesos de formación y cualificación. Lo anterior se conoce como autoreferenciación y determina que el PAF privilegie ciertas observaciones, se detenga en ciertos detalles y pida ampliar algunas secuencias de eventos o de determinados aspectos de una situación, tal y como se detalla en cada punto.
       .col-lg-4.mb-4.mb-lg-0
         figure
           img.img-t(src='@/assets/curso/tema1/img10.png').m-auto
-    .row.justify-content-center
-      .col-sm-6.col-xl-4.mb-4
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-md-8.mb-4
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -105,7 +105,7 @@
                   .bg6.p-2
                     h4.text-center.m-0 La autoreferenciación 
                 p Permite al PAF reconocer que sus conocimientos no son neutrales, ni objetivos, pues en ellos están inmersas sus creencias, prejuicios y formas de comprender la realidad, entonces, sus conocimientos y sus observaciones están impregnados de significados construidos a través de su historia de vida, los cuales se constituyen en filtros para observar y definir la realidad, eligiendo los focos de mirada y los aspectos que indaga. 
-      .col-sm-6.col-xl-4.mb-4
+      .col-lg-4.col-md-8.mb-4
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -116,7 +116,7 @@
                   .bg6.p-2
                     h4.text-center.m-0 Los significados, creencias y prejuicios 
                 p Del PAF no son una limitante en el proceso, en la medida que los reconozca y los aproveche en el establecimiento de nuevas comprensiones para hacer una lectura integral de la familia y de su contexto, para identificar los elementos que guiarán su trabajo, y para especificar la forma de movilizar a la familia y los recursos de su contexto.
-      .col-sm-6.col-xl-4.mb-4
+      .col-lg-4.col-md-8.mb-4
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -146,27 +146,25 @@
           img(src='@/assets/curso/tema1/img15.svg', style="width: 450px").m-auto
     h4 Promoción de la resiliencia 
     p.mb-5 La resiliencia permite a las familias superar una situación adversa, adaptarse a nuevas circunstancias y avanzar en su senda de desarrollo. En este mismo sentido y siguiendo con lo señalado en los Lineamientos técnicos para la inclusión y atención de familias, la resiliencia individual o familiar depende de la forma como se asume y se da significado a eventos perturbadores, así como a la capacidad para activar los recursos de afrontamiento (internos y externos) y para anticipar y prevenir situaciones de riesgo.
-    .bg1
+    .bg1.mb-5
       .row.align-items-center.p-3
         .col-lg-auto
           figure
-            img(src='@/assets/curso/tema1/img16.svg', style="width: 80px").m-auto
+            img.mb-3(src='@/assets/curso/tema1/img16.svg', style="width: 80px").m-auto
         .col-lg.mb-4.mb-lg-0
           p.mb-0 Por ello, es necesario que los programas de acompañamiento a las familias promuevan con ellas el reconocimiento y el fortalecimiento de la resiliencia, esto dado que:
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-6.col-lg-6.medidas_bloque-textb_t4.medidas_fa-quote-textb_t4  
-        .tarjeta-color.pe-4.ps-3.py-4.mb-2.mb-md-4(data-aos="fade-right")
-          .bloque-texto-b.color-acento-botones.px-4(data-aos="fade-right")
-            .bloque-texto-b__texto.m-4
-              i.fas.fa-quote-left
-              p.m-5 Todas las familias en algún momento de su historia experimentan situaciones estresantes u otras en las cuales no cuentan con los recursos o apoyos suficientes para enfrentar los retos que se derivan de las transiciones vitales o de las crisis” .
-              br
-              br
-              p.margin-texto_2.flex-end <b>(ICBF, 2020, p. 45)..</b>  
-              i.fas.fa-quote-right
-      .col-6.col-md-2.col-lg-2.mb-4.mb-md-0
+    .row.justify-content-center
+      .col-lg-7
+        .bloque-texto-f.color-secundario.pt-4.px-5
+          .bloque-texto-f__comillas
+            i.fas.fa-quote-left
+            i.fas.fa-quote-right
+          h4.text-regular.bloque-texto-f__texto Todas las familias en algún momento de su historia experimentan situaciones estresantes u otras en las cuales no cuentan con los recursos o apoyos suficientes para enfrentar los retos que se derivan de las transiciones vitales o de las crisis”.
+          .bloque-texto-f__autor.mb-3.d-flex.align-self-end
+            p.text-bold (ICBF, 2020, p. 45). 
+      .col-lg-3.mb-5
         figure
-          img(src='@/assets/curso/tema1/img17.svg' data-aos="zoom-in-down")
+          img.img-t.m-auto(src='@/assets/curso/tema1/img17.svg' data-aos="zoom-in-down")
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-4.mb-4.mb-lg-0
         figure
