@@ -380,7 +380,7 @@
           h5 Figura 4
           span Ecomapa
         figure
-          img(src='@/assets/curso/tema2/img30.svg').mb-3
+          img(src='@/assets/curso/tema2/img30.png').mb-3
           figcaption Nota. Tomado del ICBF (2020).
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-7(data-aos="fade-left")
