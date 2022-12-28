@@ -78,7 +78,7 @@
                   h4 Cartillas metodológicas programa Mi familia
                   p La siguiente tabla presenta el detalle del material metodológico mencionado.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo2.docx')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo2.pdf')" target="_blank")
                     .anexo__iconomb-0                    
                     span Descargar
                     i.fas.fa-download
