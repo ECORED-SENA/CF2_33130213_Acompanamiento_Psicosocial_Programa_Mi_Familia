@@ -22,7 +22,7 @@
           figure
             img.mb-3(src='@/assets/curso/temas/img01.svg', style="width: 80px").m-auto
         .col-lg.mb-4.mb-lg-0
-          p.mb-0 <b>Objetivo:</b> reconocer los procesos de cambio en las familias y aplicar las herramientas que permiten estructurar, planear y proyectar el acompañamiento psicosocial con las familias beneficiarias del programa Mi familia .
+          p.mb-0 <b>Objetivo:</b> reconocer los procesos de cambio en las familias y aplicar las herramientas que permiten estructurar, planear y proyectar el acompañamiento psicosocial con las familias beneficiarias del programa Mi familia.
       
           
 </template>

@@ -9,7 +9,7 @@
     .bg2
       .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-11(data-aos="fade-left")
-          p Los fundamentos que orientan el papel, el alcance y la postura del profesional de acompañamiento familiar frente al relacionamiento con las familias durante el desarrollo del acompañamiento psicosocial necesitan ser comprendidos y apropiados correctamente para el buen ejercicio de su rol.  <b>El siguiente video presenta la importancia de este rol:</b>. 
+          p Los fundamentos que orientan el papel, el alcance y la postura del profesional de acompañamiento familiar frente al relacionamiento con las familias durante el desarrollo del acompañamiento psicosocial necesitan ser comprendidos y apropiados correctamente para el buen ejercicio de su rol.  <b>El siguiente video presenta la importancia de este rol:</b> 
         .col-lg-1.mb-4.mb-lg-0
           figure
             img.img-t(src='@/assets/curso/tema1/img1.svg').mx-auto
@@ -87,9 +87,9 @@
     p.mb-4.bg4.p-2.text-white <b> EL PAF</b>
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-8(data-aos="fade-left")
-        p.mb-4 Debe generar una reflexión permanente sobre las dinámicas de interacción con las familias, teniendo cuidado de no perder de vista los siguientes aspectos: autoreferenciación (sus conocimientos, representaciones y perspectivas sobre la vida familiar), el enfoque apreciativo sobre las familias y la promoción de la resiliencia. 
-        p.bg5.p-2.mb-4 <b> Autoreferenciación del PAF</b>
-        P En la implementación del programa Mi familia el PAF interactúa con las familias no solo haciendo uso de técnicas y herramientas, sino desde sus conocimientos, representaciones, emociones y perspectivas, que provienen de sus experiencias previas y de los procesos de formación y cualificación. Lo anterior se conoce como autoreferenciación y determina que el PAF privilegie ciertas observaciones, se detenga en ciertos detalles y pida ampliar algunas secuencias de eventos o de determinados aspectos de una situación, tal y como se detalla en cada punto.
+        p.mb-4 Debe generar una reflexión permanente sobre las dinámicas de interacción con las familias, teniendo cuidado de no perder de vista los siguientes aspectos: autorreferenciación (sus conocimientos, representaciones y perspectivas sobre la vida familiar), el enfoque apreciativo sobre las familias y la promoción de la resiliencia. 
+        p.bg5.p-2.mb-4 <b> Autorreferenciación del PAF</b>
+        P En la implementación del programa Mi familia el PAF interactúa con las familias no solo haciendo uso de técnicas y herramientas, sino desde sus conocimientos, representaciones, emociones y perspectivas, que provienen de sus experiencias previas y de los procesos de formación y cualificación. Lo anterior se conoce como autorreferenciación y determina que el PAF privilegie ciertas observaciones, se detenga en ciertos detalles y pida ampliar algunas secuencias de eventos o de determinados aspectos de una situación, tal y como se detalla en cada punto.
       .col-lg-4.mb-4.mb-lg-0
         figure
           img.img-t(src='@/assets/curso/tema1/img10.png').m-auto
@@ -103,7 +103,7 @@
               .row.justify-content-center
                 .col-lg-12.mb-4
                   .bg6.p-2
-                    h4.text-center.m-0 La autoreferenciación 
+                    h4.text-center.m-0 La autorreferenciación 
                 p Permite al PAF reconocer que sus conocimientos no son neutrales, ni objetivos, pues en ellos están inmersas sus creencias, prejuicios y formas de comprender la realidad, entonces, sus conocimientos y sus observaciones están impregnados de significados construidos a través de su historia de vida, los cuales se constituyen en filtros para observar y definir la realidad, eligiendo los focos de mirada y los aspectos que indaga. 
       .col-lg-4.col-md-8.mb-4
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
@@ -159,7 +159,7 @@
           .bloque-texto-f__comillas
             i.fas.fa-quote-left
             i.fas.fa-quote-right
-          h4.text-regular.bloque-texto-f__texto Todas las familias en algún momento de su historia experimentan situaciones estresantes u otras en las cuales no cuentan con los recursos o apoyos suficientes para enfrentar los retos que se derivan de las transiciones vitales o de las crisis”.
+          h4.text-regular.bloque-texto-f__texto Todas las familias en algún momento de su historia experimentan situaciones estresantes u otras en las cuales no cuentan con los recursos o apoyos suficientes para enfrentar los retos que se derivan de las transiciones vitales o de las crisis.
           .bloque-texto-f__autor.mb-3.d-flex.align-self-end
             p.text-bold (ICBF, 2020, p. 45). 
       .col-lg-3.mb-5

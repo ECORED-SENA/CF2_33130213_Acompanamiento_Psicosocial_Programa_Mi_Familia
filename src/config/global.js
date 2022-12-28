@@ -211,7 +211,7 @@ export default {
     {
       tema: 'Instrumentos de medición de habilidades',
       referencia:
-        'ICBF. (s.f.). Mi familia. Ficha técnica autoeficacia parental. ICBF.',
+        'ICBF. (s.f.). Mi familia. Ficha técnica disciplina positiva. ICBF.',
       tipo: 'Ficha técnica',
       link:
         'https://www.icbf.gov.co/system/files/procesos/pu2.g1.mo18.pp_ficha_tecnica_-_disciplina_positiva_v1.pdf',
@@ -219,15 +219,14 @@ export default {
     {
       tema: 'Instrumentos de medición de habilidades',
       referencia:
-        'ICBF. (s.f.). Mi familia. Ficha técnica autoeficacia parental. ICBF.',
+        'ICBF. (s.f.). Mi familia. Ficha técnica regulación emocional. ICBF.',
       tipo: 'Ficha técnica',
       link:
-        'https://www.icbf.gov.co/system/files/procesos/pu1.g1.mo18.pp_ficha_tecnica_-_autoeficacia_parental_v1.pdf',
+        'https://www.icbf.gov.co/system/files/procesos/pu5.g1.mo18.pp_ficha_tecnica_-_regulacion_emocional_v1.pdf',
     },
     {
       tema: 'Instrumentos de medición de habilidades',
-      referencia:
-        'ICBF. (s.f.). Mi familia. Ficha técnica autoeficacia parental. ICBF.',
+      referencia: 'ICBF. (s.f.). Mi familia. Ficha técnica vinculación. ICBF.',
       tipo: 'Ficha técnica',
       link:
         'https://www.icbf.gov.co/system/files/procesos/pu6.g1.mo18.pp_ficha_tecnica_-_vinculacion_v1.pdf',

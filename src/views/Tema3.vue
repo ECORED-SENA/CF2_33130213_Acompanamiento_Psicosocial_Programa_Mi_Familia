@@ -86,7 +86,7 @@
     #t_3_2 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 ¿Cómo es la estructura de las cartillas metodológicas?
-    p.mb-5 Las cartillas metodológicas que orientan el desarrollo de las visitas y encuentros del programa Mi familia tienen dos grandes partes, la primera presenta los principales conceptos asociados a la temática propuesta, los cuales debe tener presente el profesional de acompañamiento para realizar la visita o el encuentro y, en la segunda parte se detalla la metodología sugerida para el trabajo con las familias, la cual consta regularmente de cuatro momentos, tal y como se presenta en el gráfico:
+    p.mb-5 Las cartillas metodológicas que orientan el desarrollo de las visitas y encuentros del programa Mi familia tienen dos grandes partes, la primera presenta los principales conceptos asociados a la temática propuesta, los cuales debe tener presente el profesional de acompañamiento para realizar la visita o el encuentro y, en la segunda parte se detalla la metodología sugerida para el trabajo con las familias, la cual consta regularmente de cuatro momentos, tal y como se presenta a continuación:
     .row.justify-content-center(data-aos="fade-left").mb-5
       .col-lg-6.mb-4
         .tarjeta-avatar-b.mb-0.h-100

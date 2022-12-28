@@ -27,7 +27,7 @@
           figure
             img.mb-3(src='@/assets/curso/tema2/img3.svg', style="width: 80px").m-auto
         .col-lg.mb-4.mb-lg-0
-          p.mb-0 Para el desarrollo del diagnóstico de las familias los profesionales de acompañamiento familiar cuentan con una batería de instrumentos que les permite abordar diferentes perspectivas de las familias, tal como se aprecia a continuación:
+          p.mb-0 Para el desarrollo del diagnóstico de las familias, los profesionales de acompañamiento familiar cuentan con una batería de instrumentos que les permite abordar diferentes perspectivas de las familias, tal como se aprecia a continuación:
     .row.mb-5.justify-content-center
       .col-lg-10
         figure
@@ -68,25 +68,25 @@
                 ul.lista-ul
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Nombre del contratista
+                    p.mb-0 Nombre del contratista.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Tipo de documento de la entidad (NIT-RUT)
+                    p.mb-0 Tipo de documento de la entidad (NIT-RUT).
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Número de identificación
+                    p.mb-0 Número de identificación.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Número de contrato
+                    p.mb-0 Número de contrato.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Nombre y apellido del profesional de acompañamiento familiar
+                    p.mb-0 Nombre y apellido del profesional de acompañamiento familiar.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Tipo de documento de identidad del profesional
+                    p.mb-0 Tipo de documento de identidad del profesional.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Número de documento de identificación del profesional
+                    p.mb-0 Número de documento de identificación del profesional.
               .col-lg-3.d-flex.align-items-start 
                 img.img-t(src='@/assets/curso/tema2/img7.svg', alt='')   
             .row.justify-content-center.align-items-center              
@@ -95,19 +95,19 @@
                 ul.lista-ul
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Tipo de vivienda
+                    p.mb-0 Tipo de vivienda.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 País, departamento, municipio o ranchería
+                    p.mb-0 País, departamento, municipio o ranchería.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Ubicación de la vivienda
+                    p.mb-0 Ubicación de la vivienda.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Tenencia de la vivienda
+                    p.mb-0 Tenencia de la vivienda.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Acceso a servicios públicos
+                    p.mb-0 Acceso a servicios públicos.
               .col-lg-3
                 img.img-t(src='@/assets/curso/tema2/img8.svg', alt='')
             .row.justify-content-center.align-items-center             
@@ -116,22 +116,22 @@
                 ul.lista-ul
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Información básica de identificación
+                    p.mb-0 Información básica de identificación.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 De autorreconocimiento étnico
+                    p.mb-0 De autorreconocimiento étnico.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Tipo de beneficiario y educación
+                    p.mb-0 Tipo de beneficiario y educación.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Ocupación y de acceso a salud
+                    p.mb-0 Ocupación y de acceso a salud.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Género y diversidad sexual
+                    p.mb-0 Género y diversidad sexual.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Discapacidad
+                    p.mb-0 Discapacidad.
               .col-lg-3.pe-2
                 img.img-t(src='@/assets/curso/tema2/img9.svg', alt='')
             .row.justify-content-center.align-items-center             
@@ -140,22 +140,22 @@
                 ul.lista-ul
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Información básica de identificación
+                    p.mb-0 Información básica de identificación.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 De autorreconocimiento étnico
+                    p.mb-0 De autorreconocimiento étnico.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Tipo de beneficiario y educación
+                    p.mb-0 Tipo de beneficiario y educación.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Ocupación y de acceso a salud
+                    p.mb-0 Ocupación y de acceso a salud.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Género y diversidad sexual
+                    p.mb-0 Género y diversidad sexual.
                   li 
                     i.fas.fa-caret-right(style="color:#F46464")
-                    p.mb-0 Discapacidad
+                    p.mb-0 Discapacidad.
               .col-lg-3
                 img.img-t(src='@/assets/curso/tema2/img10.svg', alt='')  
       .col-lg-6
